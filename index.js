@@ -8,15 +8,6 @@ function testNum(num) {
   }
 }
 
-// testNum(15)
-//   .then(result => console.log(result))
-//   .catch(error => console.log(error))
-
-// testNum(5)
-//   .then(result => console.log(result))
-//   .catch(error => console.log(error))
-
-
 // ---------------- EXERCISE 2 ------------------
 
 function makeAllCaps(array) {
@@ -36,13 +27,3 @@ function sortWords(words) {
  
   return Promise.resolve(sorted)
 }
-
-// makeAllCaps(['wowow', 'pants', 'bird'])
-//   .then(words => sortWords(words))
-//   .then(result => console.log(result))
-//   .catch(error => console.log(error))
-
-// makeAllCaps(['wowow', 5, 'bird'])
-//   .then(words => sortWords(words))
-//   .then(result => console.log(result))
-//   .catch(error => console.log(error))
